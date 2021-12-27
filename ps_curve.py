@@ -14,7 +14,7 @@ import cooler
 import cooltools
 import cooltools.expected
 
-from .genome import arms, get_arms
+from .genome import get_arms
 # cvd == contacts-vs-distance
 def get_cvd(clr, arms):
     cvd = cooltools.expected.diagsum_symm(
